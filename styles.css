@@ -306,10 +306,10 @@ h1, h2, h3, h4 {
 }
 
 .hero h1 {
-  font-size: clamp(52px, 10vw, 156px);
+  font-size: clamp(34px, 5.5vw, 80px);
   font-weight: 200;
-  letter-spacing: -0.04em;
-  max-width: 1000px;
+  letter-spacing: -0.03em;
+  max-width: 720px;
 }
 
 .hero h1 .accent { color: var(--neon-bright); font-style: normal; font-weight: 200; }
