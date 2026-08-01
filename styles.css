@@ -389,6 +389,12 @@ h1, h2, h3, h4 {
 
 .class-card .photo-frame { min-height: 220px; border-radius: 0; border-left: none; border-right: none; border-top: none; }
 
+.class-card .photo-frame::after,
+.class-detail .photo-frame::after {
+  background: linear-gradient(180deg, rgba(10,10,12,0.05) 0%, rgba(10,10,12,0.15) 55%, rgba(10,10,12,0.75) 100%),
+              linear-gradient(150deg, rgba(176,38,255,0.32), rgba(93,58,114,0.12) 55%, transparent);
+}
+
 /* Team gallery (Instructors page) */
 .team-gallery {
   display: grid;
