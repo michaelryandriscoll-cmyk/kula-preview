@@ -13,7 +13,7 @@
   --neon-bright: #d16bff;
   --neon-deep: #5d3a72;
   --line: rgba(247, 246, 249, 0.12);
-  --font-display: 'Fraunces', serif;
+  --font-display: 'Inter', sans-serif;
   --font-body: 'Inter', sans-serif;
 }
 
@@ -44,9 +44,9 @@ ul { list-style: none; }
 
 h1, h2, h3, h4 {
   font-family: var(--font-display);
-  font-weight: 300;
-  line-height: 1.1;
-  letter-spacing: -0.01em;
+  font-weight: 200;
+  line-height: 1.05;
+  letter-spacing: -0.03em;
   text-transform: none;
 }
 
@@ -151,15 +151,15 @@ h1, h2, h3, h4 {
   align-items: center;
   gap: 12px;
   font-family: var(--font-display);
-  font-style: italic;
-  font-size: 24px;
-  font-weight: 300;
-  letter-spacing: 0;
+  font-style: normal;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
   color: var(--white);
   white-space: nowrap;
 }
 
-.logo span { color: var(--neon-bright); font-style: italic; }
+.logo span { color: var(--neon-bright); font-style: normal; }
 
 .logo-mark {
   width: 40px;
@@ -306,11 +306,13 @@ h1, h2, h3, h4 {
 }
 
 .hero h1 {
-  font-size: clamp(42px, 7vw, 92px);
-  max-width: 900px;
+  font-size: clamp(52px, 10vw, 156px);
+  font-weight: 200;
+  letter-spacing: -0.04em;
+  max-width: 1000px;
 }
 
-.hero h1 .accent { color: var(--neon-bright); font-style: italic; font-weight: 300; }
+.hero h1 .accent { color: var(--neon-bright); font-style: normal; font-weight: 200; }
 
 .hero .lede { margin-top: 24px; font-size: 20px; }
 
