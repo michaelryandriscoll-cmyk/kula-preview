@@ -387,7 +387,7 @@ h1, h2, h3, h4 {
   pointer-events: none;
 }
 
-.class-card .photo-frame { min-height: 220px; border-radius: 0; border-left: none; border-right: none; border-top: none; }
+.class-card .photo-frame { aspect-ratio: 3 / 4; height: auto; min-height: 220px; border-radius: 0; border-left: none; border-right: none; border-top: none; }
 
 .class-card .photo-frame::after,
 .class-detail .photo-frame::after {
